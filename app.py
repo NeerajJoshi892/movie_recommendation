@@ -4,10 +4,6 @@ import pandas as pd
 import requests
 import gzip
 
-# Add to top of app.py:
-import os
-API_KEY = os.environ.get('TMDB_API_KEY', '8265bd1679663a7ea12ac168da84d2e8')
-
 # --- Custom Styling ---
 st.set_page_config(page_title="Movie Recommender", layout="wide")
 
